@@ -1,5 +1,6 @@
 #main-header img {
-   /*TODO*/
+    width: 100%;
+    height: 100%;
 }
 
 #main-header .port-item {
@@ -11,7 +12,8 @@
 }
 
 .bg-black {
-  /*TODO*/
+    color: white;
+    background-color: black;
 }
 
 @media (min-width: 1199px) {
