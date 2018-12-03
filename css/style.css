@@ -5,11 +5,23 @@
 
 #vthacks {
     width: 210px;
-    height: auto;
+    height: 300px;
+}
+
+
+#abstract2 {
+    width: 210px;
+    height: 300px;
+}
+
+#sent {
+    width: 210px;
+    height: 300px;
 }
 
 .bg-image {
-    background-image: url("../img/4K-Black-Wallpaper-Ultra-HD.jpg");
+    background-image: url("../img/4K-Black-Wallpaper-For-Android.jpg");
+    background-size: cover;
 }
 
 #main-header .port-item {
