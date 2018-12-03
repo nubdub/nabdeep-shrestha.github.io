@@ -5,10 +5,13 @@
 
 #main-header .port-item {
    /*TODO*/
+    width: 30%
 }
 
 #main-header .port-item:hover {
    /*TODO*/
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 .bg-black {
@@ -19,6 +22,7 @@
 @media (min-width: 1199px) {
    .port-item {
       /*TODO*/
+       padding: 3em !important;
    }
 }
 
