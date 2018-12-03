@@ -87,9 +87,13 @@
         <div class="card card-body bg-primary text-white py-5">
             <h2>Welcome To My Page!</h2>
             <p class="lead">
-                I am currently planning on graduating a year early with my expected date being May 2020. I am primarily interested
+                I am currently planning on graduating a year early with my Bachelor's degree; my expected graduation date is May 2020. I am primarily interested
                 in Full Stack Development, but I am still in the process of exploring different fields within the Computer Science industry
                 and I am open to anything.
+                <br>
+                <br>
+                Outside of coding, I have played guitar for seven years; I am a big rock and metal fan. I also enjoy lifting, trying new food,
+                and watching basketball.
             </p>
         </div>
         <div class="card card-body py-5">
@@ -97,7 +101,7 @@
             <br>
             <p>
                 My primary programming language is Java. Through my coursework, I have programmed in Java, Python, and C.
-                I have also taken an introductory database class in which I learned T-SQL and database management and design. Outside of my coursework, I have
+                I have also taken an introductory database class in which I learned T-SQL (MS SQL Server), database management, and database design. Outside of my coursework, I have
                 learned basic web development skills through Web Development @ VT and my undergraduate
                 research position.
             </p>
@@ -125,7 +129,7 @@
             <hr>
             <h3>Web Development</h3>
             <br>
-            <h4>HTML 5</h4>
+            <h4>HTML</h4>
             <div class="progress mb-3">
                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
                      aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
@@ -134,7 +138,7 @@
             <h4>CSS</h4>
             <div class="progress mb-3">
                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
-                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
                 </div>
             </div>
             <h4>JavaScript</h4>
@@ -143,10 +147,40 @@
                      aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
                 </div>
             </div>
-            <h4>Bootstrap.css</h4>
+            <hr>
+            <h3>Operating Systems</h3>
+            <br>
+            <h4>Windows</h4>
             <div class="progress mb-3">
                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
-                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                </div>
+            </div>
+            <h4>CentOS</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                </div>
+            </div>
+            <hr>
+            <h3>Build Tools</h3>
+            <br>
+            <h4>Git</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                </div>
+            </div>
+            <h4>Eclipse</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                </div>
+            </div>
+            <h4>Jetbrains (IntelliJ, WebStorm, PyCharm)</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                 </div>
             </div>
         </div>
@@ -264,6 +298,20 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="card card-body py-5">
+            <h3>Relevant Coursework: </h3>
+            <br>
+            <li class="list-group">
+                <li class="list-group-item">CS 1114 Intro to Software Design</li>
+                <li class="list-group-item">CS 2114 Software Design and Data Structures</li>
+                <li class="list-group-item">MATH 2114 Linear Algebra</li>
+                <li class="list-group-item">MATH 2534 Discrete Math</li>
+                <li class="list-group-item">CS 2505 Computer Organization I</li>
+                <li class="list-group-item">CS 2304 Intro to SQL and Database Management</li>
+                <li class="list-group-item">CS 2104 Intro to Problem Solving in CS</li>
+                <li class="list-group-item">MATH 3134 Applied Combinatorics and Graph Theory</li>
+            </li>
         </div>
     </div>
 
@@ -431,7 +479,7 @@
                         <textarea name="body" class="form-control" placeholder="Message"></textarea>
                     </div>
                 </div>
-                <input type="submit" value="Submit" class="btn btn-outline-danger btn-block btn-lg">
+                <input onsubmit="sentEmail()" type="submit" value="Submit" class="btn btn-outline-danger btn-block btn-lg">
                 <!--START HERE: TODO-->
 
             </form>
@@ -488,6 +536,11 @@
     $('.port-item').click(function () {
         $('.collapse').collapse('hide');
     });
+</script>
+<script>
+    function sentEmail() {
+        alert(Your email has been sent to nabdeep@vt.edu!);
+    }
 </script>
 </body>
 
