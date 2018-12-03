@@ -3,6 +3,10 @@
     height: 100%;
 }
 
+.bg-image {
+    background-image: url("../img/4K-Black-Wallpaper-Ultra-HD.jpg");
+}
+
 #main-header .port-item {
    /*TODO*/
     width: 30%
